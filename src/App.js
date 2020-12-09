@@ -1,10 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/header'
+import Cards from './components/cards'
+import './components/css/globals.css'
 
 function App() {
-  return (
-    <h1>Hola React..</h1>
-  );
+    return (
+        <>
+            <Header/>
+            <Cards/>
+        </>
+    );
 }
 
 export default App;
