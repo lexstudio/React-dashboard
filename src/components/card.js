@@ -20,7 +20,7 @@ export default function Card ({userName,followers, todayFollowers, socialNetwork
 
             <p className="card-today">
                 <span className="fas fa-sort-up"></span>
-                {todayFollowers} Hoy
+                {todayFollowers} Hoy es una prueba
             </p>
         </article>
     )
