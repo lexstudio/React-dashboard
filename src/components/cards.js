@@ -2,17 +2,56 @@ import React from 'react'
 import Card from './card'
 import './css/cards.css'
 
+const cardDataList = [
+    {
+        id: 1,
+        userName:"Alex",
+        followers: '1596',
+        todayFollowers: 12,
+        socialNetwork: 'facebook'
+    },
+
+    {
+        id: 2,
+        userName:"Lis",
+        followers: '28K',
+        todayFollowers: 20 ,
+        socialNetwork: 'instagram'
+    },
+
+    {
+        id: 3,
+        userName:"Carmen",
+        followers: '6K',
+        todayFollowers: 30,
+        socialNetwork: 'twitter'
+    },
+
+    {
+        id: 4,
+        userName:"Fausto",
+        followers: '12K',
+        todayFollowers: -58, 
+        socialNetwork: 'youtube'
+    },
+
+]
+
 export default function Cards(){
     return(
         <section>
             <div className="wrapper">
                 <div className="grid top-cards">
 
+                    {cardDataList.map((cardData)=>
+                        <Card key={cardData.id} {...cardData}/>
+                    )}
 
+
+                    
+                    {/* <Card/>
                     <Card/>
-                    <Card/>
-                    <Card/>
-                    <Card/>
+                    <Card/> */}
 
 
 {/* 

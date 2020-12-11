@@ -19,7 +19,7 @@
     top: 0;
 }
 
-.card.facebook::before {
+.card.facebook-square::before {
     background: var(--facebook);
 }
 
@@ -52,10 +52,10 @@
 }
 
 .card-title span {
-    gin-right: 5px;
+    margin-right: 5px;
 }
 
-.icon-facebook {
+.icon-facebook-square {
     color: var(--facebook);
     font-size: 1.5em;
 }
