@@ -29,3 +29,17 @@
     transition: .3s;
     will-change: transform;
 }
+
+
+
+.dark-mode-title{
+    margin-right: 10px;
+}
+
+.checkbox{
+    display: none;
+}
+
+.checkbox:checked ~ .switch::before{
+    transform: translate(0);
+}

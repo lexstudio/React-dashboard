@@ -55,6 +55,7 @@
     margin-right: 5px;
 }
 
+/*SOCIAL NETWORK ICONS*/
 .icon-facebook-square {
     color: var(--facebook);
     font-size: 1.5em;
@@ -80,6 +81,8 @@
     color: var(--youtube);
     font-size: 1.5em;
 }
+
+
 
 .card-followers {
 }

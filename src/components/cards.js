@@ -5,7 +5,7 @@ import './css/cards.css'
 const cardDataList = [
     {
         id: 1,
-        userName:"Alex",
+        userName:"lexander",
         followers: '1596',
         todayFollowers: 12,
         socialNetwork: 'facebook'
@@ -14,7 +14,7 @@ const cardDataList = [
     {
         id: 2,
         userName:"Lis",
-        followers: '28K',
+        followers: '28k',
         todayFollowers: 20 ,
         socialNetwork: 'instagram'
     },
@@ -22,7 +22,7 @@ const cardDataList = [
     {
         id: 3,
         userName:"Carmen",
-        followers: '6K',
+        followers: '6k',
         todayFollowers: 30,
         socialNetwork: 'twitter'
     },
@@ -30,7 +30,7 @@ const cardDataList = [
     {
         id: 4,
         userName:"Fausto",
-        followers: '12K',
+        followers: '12k',
         todayFollowers: -58, 
         socialNetwork: 'youtube'
     },

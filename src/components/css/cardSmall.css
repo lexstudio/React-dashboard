@@ -1,36 +1,3 @@
-
-
-.dark-mode-title{
-    margin-right: 10px;
-}
-
-.checkbox{
-    display: none;
-}
-
-.checkbox:checked ~ .switch::before{
-    transform: translate(0);
-}
-
-
-
-
-
-
-
-
-
-
-/*-----------------------------------------*/
-
-.overview{
-    padding-bottom: 2em;
-}
-
-h2{
-    color: var(--gray);
-}
-
 .card-small{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -94,5 +61,33 @@ h2{
 
 .card-small-percentage .is-danger i{
     height: 15px;
+}
+
+
+/*SOCIAL NETWORK ICONS*/
+.card-small-icon .icon-facebook-square {
+    color: var(--facebook);
+    font-size: 1.2em;
+}
+
+.card-small-icon .icon-twitter {
+    color: var(--twitter);
+    font-size: 1.2em;
+}
+
+.card-small-icon .icon-instagram {
+    background: linear-gradient(
+    to right,
+    var(--instagram-1) 0%,
+    var(--instagram-2) 100%
+    );
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 1.2em;
+}
+
+.card-small-icon .icon-youtube {
+    color: var(--youtube);
+    font-size: 1.2em;
 }
 

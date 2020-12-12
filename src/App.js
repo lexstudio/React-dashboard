@@ -1,6 +1,6 @@
-import './App.css';
 import Header from './components/header'
 import Cards from './components/cards'
+import Overview from './components/overview'
 import './components/css/globals.css'
 
 function App() {
@@ -8,6 +8,7 @@ function App() {
         <>
             <Header/>
             <Cards/>
+            <Overview/>
         </>
     );
 }
